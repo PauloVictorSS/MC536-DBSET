@@ -1,4 +1,4 @@
-# Equipe <nome da equipe>
+# Equipe Shrek
 
 # Subgrupo DBSET
 
