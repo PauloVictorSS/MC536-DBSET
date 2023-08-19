@@ -8,3 +8,8 @@
 
 
 ## Modelo Conceitual ER
+
+<img src="images/ER_Diagram.png" width="400px" height="auto">
+
+
+## Modelo Conceitual ER
