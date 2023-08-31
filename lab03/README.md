@@ -7,7 +7,13 @@
 - Rodrigo de Barros - 272701
 
 
-## Modelo Relacional
+## Modelo Conceitual ER (Mesmo da tarefa 02)
+
+<img src="../lab02/images/ER_Diagrama.png" width="400px" height="auto">
+
+_Diagrama ER (Mesmo da tarefa 02)_
+
+## Mapeamento para o Modelo Relacional
 ~~~
 Aluno(_ra_, nome, instituto, telefone)
 
