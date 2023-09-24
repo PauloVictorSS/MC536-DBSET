@@ -8,6 +8,8 @@
 
 # Laboratório
 
+[Link para o notebook com os resultados das consultas](https://github.com/PauloVictorSS/MC536-DBSET/blob/main/lab05/food-intake-analysis-advanced.ipynb)
+
 ## Questão 1:
 
 Abaixo encontram-se as views referente a popularidade de todos os alimentos da base, a soma de consumo destes alimentos, as médias de consumo e as
