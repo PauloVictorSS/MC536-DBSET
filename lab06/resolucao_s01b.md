@@ -1,9 +1,13 @@
+## Exercício
+
 Escreva uma sentença em Cypher que crie o medicamento de nome `Metamizole`, código no DrugBank `DB04817`.
 
 ### Resolução
 ~~~cypher
 CREATE (:Drug {drugbank: "DB04817", name: "Metamizole"})
 ~~~
+
+
 
 ## Exercício
 
@@ -15,6 +19,8 @@ MATCH (d:Drug {name:"Dipyrone"})
 MATCH (p:Drug {name:"Metamizole"})
 CREATE (d)-[:SameAs]->(p)
 ~~~
+
+
 
 ## Exercício
 
