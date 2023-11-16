@@ -46,3 +46,9 @@ Resultado da receita    =>    Grupo dos ingredientes
 3) Quais são os grupos mais populares para fazer uma receita (no caso, os grupos que são mais conectados com receitas)?
 	- Acaba trazendo também quais os grupos mais populares para se fazer uma receita
 ```
+
+
+### Modelo Lógico 
+
+
+<img src="./images/modelo_logico_lab7.png" width="800px" height="auto">
