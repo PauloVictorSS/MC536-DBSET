@@ -1,20 +1,6 @@
-Recipes_WWEIA_FCID_0510 (Receita)
-	- FCID_Code_Description (Ingrediente)
-	- Food_Code_Description (Resultado da receita)
-	- Cooking_Method_Description (como fazer)
-	- Cooked_Status_Description (estado do ingrediente)
+### Quais os tipos de nós que vamos utilizar (e quais as suas propriedades)
 
-FCID_Code_Description (Ingrediente)
-	- FCID_Cropgroup_Description(grupo/subgrupo alimentar)
-
-Food_Code_Description (Resultado da receita)
-
-commodity-profile (pesquisa de consumo)
-	- Food_Code_Description (Resultado da receita)
-	- FCID_Cropgroup_Description(grupo/subgrupo alimentar)
-
------------------------------------------------------------------------------------------------------
-
+```
 - Resultado da receita (alimento)
 	- código
 	- descrição
@@ -24,32 +10,39 @@ commodity-profile (pesquisa de consumo)
 - Grupo dos ingredientes
 	- código
 	- descrição
+```
 
------------------------------------------------------------------------------------------------------
 
-Ingrediente    ->    Grupo dos ingredientes
-	- quais os grupos e subgrupos de cada ingrediente
+### Quais vão ser os tipos de areastas e o que queremos com elas
 
-Ingrediente     ->   Resultado da receita
-	- quais ingredientes participam de quais receitas
+```
+Ingrediente    =>    Grupo dos ingredientes
+- Quais os grupos e subgrupos de cada ingrediente
 
-Grupo dos ingredientes     ->      Grupo dos ingredientes
-	- quais subgrupos pertence a quais grupos
+Ingrediente    =>    Resultado da receita
+- Quais ingredientes participam de quais receitas
 
-Ingrediente -> Ingrediente
-	- ingredientes que aparecem na mesma receita
+Grupo dos ingredientes    =>    Grupo dos ingredientes
+- Quais subgrupos pertence a quais grupos
 
-Resultado da receita  ->  Resultado da receita
-	- receitas que tem os mesmos ingredientes
+Ingrediente    =>    Ingrediente
+- Ingredientes que aparecem na mesma receita
 
-Resultado da receita  ->  Grupo dos ingredientes
-	- quais os grupos/subgrupos dos ingredientes daquela receita
+Resultado da receita    =>    Resultado da receita
+- Receitas que tem os mesmos ingredientes
 
------------------------------------------------------------------------------------------------------
+Resultado da receita    =>    Grupo dos ingredientes
+- Quais os grupos/subgrupos dos ingredientes daquela receita
+```
 
+
+### Perguntas para análise que 
+
+```
 1) Quais ingredientes são mais populares (aparecem em conjunto com diversos outros ingredientes)?
 
-2)  Quais receitas usam os ingredientes mais comuns (ingredientes usados em muitas outras receitas)?
+2) Quais receitas usam os ingredientes mais comuns (ingredientes usados em muitas outras receitas)?
 
 3) Quais são os grupos mais populares para fazer uma receita (no caso, os grupos que são mais conectados com receitas)?
-	- acaba trazendo também quais os grupos mais populares para se fazer uma receita
+	- Acaba trazendo também quais os grupos mais populares para se fazer uma receita
+```
