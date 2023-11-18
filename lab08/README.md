@@ -12,7 +12,7 @@
 
 1) Quais ingredientes são mais populares (aparecem em conjunto com diversos outros ingredientes)?
    
-Quando fazemos a ligação entre os ingredientes com a condição de participarem da mesma receita, conseguimos tanto de forma visual, como por meio de calculos, quais são os ingredientes mais "populares". A centralidade desses ingredientes pode ser também uma métrica para isso: os ingredientes mais centrais nesse caso são geralmente os que tem mais conexões com outros ingredientes, ou seja, participam de diversas receitas. Além disso, olhando para o próprio grafo formado conseguimos ter uma ideia visual de quais são os ingredientes mais basais, que são usados em diversas receitas
+Quando fazemos a ligação entre os ingredientes com a condição de participarem da mesma receita, conseguimos tanto de forma visual, como por meio de calculos, quais são os ingredientes mais "populares". A centralidade desses ingredientes pode ser também uma métrica para isso: os ingredientes mais centrais nesse caso são geralmente os que tem mais conexões com outros ingredientes, ou seja, participam de diversas receitas. Essa análise poderia ser baseada em cima dos vatores calculados, por exemplo, pelo algoritmo de Pagerank tendo até uma noção de quão popular é aquele ingrediente. Além disso, olhando para o próprio grafo formado conseguimos ter uma ideia visual de quais são os ingredientes mais basais, que são usados em diversas receitas.
 
 
 2) Quais receitas usam os ingredientes mais comuns (ingredientes usados em muitas outras receitas)?
