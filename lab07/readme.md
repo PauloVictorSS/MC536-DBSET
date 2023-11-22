@@ -2,9 +2,15 @@
 
 # Subgrupo DBSET
 
-- Gabreil Gomes - 248287
+- Gabriel Gomes - 248287
 - Paulo Santos - 248438
 - Rodrigo de Barros - 272701
+
+## Modelo Lógico do Banco de Dados de Grafos
+
+<img src="./images/modelo_logico_lab7.png" width="800px" height="auto">
+
+## Perguntas de Pesquisa/Análise
 
 ### Quais os tipos de nós que vamos utilizar (e quais as suas propriedades)
 
@@ -44,7 +50,7 @@ Resultado da receita    =>    Grupo dos ingredientes
 ```
 
 
-### Perguntas para análise que 
+### Perguntas para análise/pesquisa
 
 ```
 1) Quais ingredientes são mais populares (aparecem em conjunto com diversos outros ingredientes)?
@@ -54,9 +60,3 @@ Resultado da receita    =>    Grupo dos ingredientes
 3) Quais são os grupos mais populares para fazer uma receita (no caso, os grupos que são mais conectados com receitas)?
 	- Acaba trazendo também quais os grupos mais populares para se fazer uma receita
 ```
-
-
-### Modelo Lógico 
-
-
-<img src="./images/modelo_logico_lab7.png" width="800px" height="auto">
