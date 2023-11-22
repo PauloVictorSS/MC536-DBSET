@@ -6,7 +6,11 @@
 - Paulo Santos - 248438
 - Rodrigo de Barros - 272701
 
-# Resultados das análises
+## Modelo Lógico do Banco de Dados de Grafos (Revisado)
+
+<img src="./images/model_logico_alterado.png" width="800px" height="auto">
+
+## Perguntas de Pesquisa/Análise Combinadas e Respectivas Análises
 
 ## Perguntas feitas no Lab 07
 
@@ -37,6 +41,4 @@ Analisando o grafo que liga receitas com outras receitas:
 - Esse é o mesmo grafo da questão 2, onde a condição para ligação seria as receitas terem ao menos um ingrediente em comum. Poderiamos gerar, em cima disso, um grafo de comunidades para analise dos grupos de receitas que são similares, talvez podendo, depois que as comunidades estivessem mais definidas, refletir nos grupos e/subgrupos dos ingredientes: se temos uma determinada comunidade em receitas no grafo, significa que aquelas receitas compartilham os mesmos ingredientes em comum, ou seja, aqueles ingredientes tem uma "composição" similiar e, talvez, se analisarmos os grupos/subgrupos desses ingredientes em questão, vamos conseguir ver uma similaridade.
 
 
-## Modelo Lógico (Revisado)
 
-<img src="./images/model_logico_alterado.png" width="800px" height="auto">
